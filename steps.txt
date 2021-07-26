@@ -1,0 +1,50 @@
+# iniciar package
+npm init
+
+# Instalar express (server)
+npm i express --save
+
+# Instalar o CORS (Cross Origin Request Service)
+npm i cors --save
+
+# Instalar o Consign ("mapeador" de dependencias)
+npm i consign --save
+
+# Instalar o Knex ("manipulador do banco de dados" QueryBuilder)
+npm i knex --save
+
+# Instalar a dependencia do banco de dados
+npm i mysql --save
+
+# Instalar dependencia para datas
+npm i moment --save
+
+# Instalar BCrypt (encriptador de dados)
+npm i bcrypt-nodejs --save
+
+# Instalar o JWT (Web Token)
+npm i jwt-simple --save
+
+# Instalar o Passport para JWT (gerenciador de autenticações)
+npm i passport --save
+npm i passport-jwt --save
+
+# Instalar PM2 (Para start do express)
+npm i pm2 --save
+
+# Instalar Nodemon (para reiniciar durante o desenvolvimento)
+npm i nodemon --save-dev
+
+# Colocar Nodemon nos scripts do package.json
+"start": "nodemon",
+
+# Script para rodar pm2 em produção (package.json)
+"production": "pm2 start index.js --name devguide_api",
+
+# Criar knexfile.js e .env com as configurações do banco
+
+# Criar configs - middlewares.js e routes.js
+
+# Criar a pasta api para atender as requisições
+
+# Incluir no consign do index
