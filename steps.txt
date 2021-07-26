@@ -49,6 +49,10 @@ npm i nodemon --save-dev
 
 # Incluir no consign do index
 
+# Migração Knex
+knex migrate:make create_table_users
+knex migrate:latest
+
 ---- GITHUB ---
 
 # iniciar o GIT

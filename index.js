@@ -1,7 +1,11 @@
 const app = require('express')() // Loads and starts express
 const consign = require('consign') // Loads consign
+const db = require('./configs/db')
+const dotenv = require('dotenv').config()
 
-consign() // Feito pelo Consign
+app.db = db
+
+consign()
     .then('./configs/middlewares.js')
     .then('./api')
     .then('./configs/routes.js')
