@@ -13,6 +13,8 @@ npm i consign --save
 # Instalar o Knex ("manipulador do banco de dados" QueryBuilder)
 npm i knex --save
 
+# Instalar dotenv (para variáveis de ambiente)
+
 # Instalar a dependencia do banco de dados
 npm i mysql --save
 
