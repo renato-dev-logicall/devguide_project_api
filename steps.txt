@@ -48,3 +48,13 @@ npm i nodemon --save-dev
 # Criar a pasta api para atender as requisições
 
 # Incluir no consign do index
+
+---- GITHUB ---
+
+# iniciar o GIT
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/renato-dev-logicall/devguide_project_api.git
+git push -u origin main
