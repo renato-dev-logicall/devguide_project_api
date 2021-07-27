@@ -4,6 +4,9 @@ npm init
 # Instalar express (server)
 npm i express --save
 
+# Express Validator
+npm i --save express-validator
+
 # Instalar o CORS (Cross Origin Request Service)
 npm i cors --save
 
@@ -14,6 +17,7 @@ npm i consign --save
 npm i knex --save
 
 # Instalar dotenv (para variáveis de ambiente)
+npm i dotenv --save
 
 # Instalar a dependencia do banco de dados
 npm i mysql --save

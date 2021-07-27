@@ -1,3 +1,4 @@
+require('dotenv').config();
 const app = require('express')() // Loads and starts express
 const consign = require('consign') // Loads consign
 const db = require('./configs/db')
@@ -7,6 +8,7 @@ app.db = db
 
 consign()
     .then('./configs/middlewares.js')
+    .then('./configs/validators')
     .then('./api')
     .then('./configs/routes.js')
     .into(app)
